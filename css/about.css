@@ -1,0 +1,26 @@
+.about-section {
+    width: 100%;
+    background-color: rgb(241, 179, 168);
+}
+
+.about-me {
+    text-align: center;
+}
+
+.subsection {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(199, 101, 83);
+    border-radius: 30px;
+}
+
+.sub-text {
+    width: 70%;
+    margin: auto;
+}
+
+.actual-text {
+    color: wheat;
+    font-size: larger;
+}

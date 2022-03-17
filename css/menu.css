@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Hubballi', cursive;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+}
+
+.menu-holder {
+    width: 100%;
+    min-height: 125px;
+    background-color: tomato;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.text {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.links {
+    width: 50%;
+}
+
+.button-container {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.body-holder {
+    width: 100%;
+    max-height: auto;
+}
+
+.img-player {
+    width: 70%;
+    margin: auto;
+    background-clip: border-box;
+    text-align: center;
+}
+
+.img-player img {
+    max-height: 500px;
+}
+
+
+/*---mobile device*/
+
+.none {
+    display: none;
+}
+
+@media(max-width: 936px) {
+    .none {
+        display: block;
+        color: white;
+    }
+    .button-container {
+        display: none;
+    }
+    .cross {
+        display: none;
+    }
+    .menu-label {
+        text-align: right;
+    }
+}
